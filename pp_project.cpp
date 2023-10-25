@@ -40,6 +40,7 @@ public:
         cout << "Location: " << location << endl;
         cout << "Email: " << email << endl;
         cout << "Phone Number: " << phNO << endl;
+        cout<<endl<<endl;
     }
 };
 
@@ -68,6 +69,10 @@ public:
         displayProfile();
         cout << "Budget: " << budget << endl;
         cout << "No. of rooms: " << no_of_rooms << endl;
+
+        cout<<"------------------------------------------------------------------------------------------------";
+
+        cout<<endl<<endl;
     }
 };
 
@@ -91,10 +96,15 @@ public:
     };
 
     void displayOwnerProfile() {
+        name=owner_name;
         displayProfile();
+        
         cout << "Name: " << owner_name << endl;
         cout << "UserID: " << owner_id << endl;
         cout << "Number of properties: " << no_properties << endl;
+
+        cout<<"----------------------------------------------------------------------------------------------------------";
+        cout<<endl<<endl;
     }
 };
 
@@ -121,6 +131,9 @@ public:
         cout << "Price of the property: " << price << endl;
         cout << "Facing of the property: " << facing << endl;
         cout << "The property is: " << finishing << endl;
+
+        cout<<"-----------------------------------------------------------------------------------------------------------------";
+        cout<<endl<<endl;
     }
 };
 
